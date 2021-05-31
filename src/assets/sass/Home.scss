@@ -1,0 +1,22 @@
+.home-form {
+    border-radius: 5px;
+    padding: 15px;
+    z-index: 1;
+    background-color: #e9e9eb;
+    align-content: center;
+}
+
+.home-form-control {
+    display: flex !important;
+    flex-direction: row !important;   
+}
+
+.home-input {
+    //take up all space available in row
+    flex: 1;
+}
+
+.home-icon-button {
+    //only take up the minimum space need for icon button
+    flex: 0;
+}
